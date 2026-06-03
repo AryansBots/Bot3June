@@ -1,6 +1,6 @@
 # This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
-FROM irisxdr/NEO-WWZMK:latest
+FROM irisxdr/neo-wzml:latest
 
 WORKDIR /usr/src/app
 
