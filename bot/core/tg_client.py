@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 from pyrogram import Client, enums
 from asyncio import Lock, gather
@@ -24,7 +24,7 @@ class TgClient:
     MAX_SPLIT_SIZE = 2097152000
 
     @classmethod
-    def neoTgClient(cls, *args, **kwargs):
+    def WayneBotsTgClient(cls, *args, **kwargs):
         kwargs["api_id"] = Config.TELEGRAM_API
         kwargs["api_hash"] = Config.TELEGRAM_HASH
         kwargs["proxy"] = Config.TG_PROXY
@@ -41,8 +41,8 @@ class TgClient:
     @classmethod
     async def start_hclient(cls, no, b_token):
         try:
-            hbot = await cls.neoTgClient(
-                f"NEO-WZML-HBot{no}",
+            hbot = await cls.WayneBotsTgClient(
+                f"WayneBots-HBot{no}",
                 bot_token=b_token,
                 no_updates=True,
             ).start()
@@ -69,15 +69,15 @@ class TgClient:
     async def start_bot(cls):
         LOGGER.info("Generating client from BOT_TOKEN")
         cls.ID = Config.BOT_TOKEN.split(":", 1)[0]
-        cls.bot = cls.neoTgClient(
-            f"NEO-WZML-Bot{cls.ID}",
+        cls.bot = cls.WayneBotsTgClient(
+            f"WayneBots-Bot{cls.ID}",
             bot_token=Config.BOT_TOKEN,
             workdir="/usr/src/app",
         )
         await cls.bot.start()
         cls.BNAME = cls.bot.me.username
         cls.ID = Config.BOT_TOKEN.split(":", 1)[0]
-        LOGGER.info(f"NEO-WZML Bot : [@{cls.BNAME}] Started!")
+        LOGGER.info(f"WayneBots Bot : [@{cls.BNAME}] Started!")
 
     @classmethod
     async def start_user(cls):
@@ -105,8 +105,8 @@ class TgClient:
                         cls.user = None
                         return
 
-                cls.user = cls.neoTgClient(
-                    "NEO-WZML-User",
+                cls.user = cls.WayneBotsTgClient(
+                    "WayneBots-User",
                     session_string=session_string,
                     sleep_threshold=60,
                     no_updates=True,
@@ -116,7 +116,7 @@ class TgClient:
                 if cls.IS_PREMIUM_USER:
                     cls.MAX_SPLIT_SIZE = 4194304000
                 uname = cls.user.me.username or cls.user.me.first_name
-                LOGGER.info(f"NEO-WZML User : [{uname}] Started!")
+                LOGGER.info(f"WayneBots User : [{uname}] Started!")
             except Exception as e:
                 LOGGER.error(f"Failed to start client from USER_SESSION_STRING. {e}")
                 cls.IS_PREMIUM_USER = False

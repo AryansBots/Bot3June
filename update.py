@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 from sys import exit
 from importlib import import_module
@@ -91,7 +91,7 @@ BOT_ID = BOT_TOKEN.split(":", 1)[0]
 if DATABASE_URL := config_file.get("DATABASE_URL", "").strip():
     try:
         conn = MongoClient(DATABASE_URL, server_api=ServerApi("1"))
-        db = conn.neowzml
+        db = conn.WayneBotswzml
         config_dict = db.settings.config.find_one({"_id": BOT_ID}) or {}
         if config_dict:
             for key in _DB_TRUTH_KEYS:

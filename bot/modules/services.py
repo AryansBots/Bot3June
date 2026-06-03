@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 from html import escape
 from time import monotonic, time
@@ -40,7 +40,7 @@ async def start(_, message):
     buttons.url_button(BotTheme("ST_BN2_NAME"), BotTheme("ST_BN2_URL"))
     reply_markup = buttons.build_menu(2)
 
-    if len(message.command) > 1 and message.command[1] == "neowzml":
+    if len(message.command) > 1 and message.command[1] == "WayneBotswzml":
         await delete_message(message)
     elif len(message.command) > 1 and message.command[1] != "start":
         decrypted_url = decode_slink(message.command[1])

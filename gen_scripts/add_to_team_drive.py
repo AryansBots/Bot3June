@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 from __future__ import print_function
 from argparse import ArgumentParser

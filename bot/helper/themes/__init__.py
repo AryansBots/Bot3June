@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 """Dynamic theme loading for BotTheme."""
 from os import listdir
@@ -8,13 +8,13 @@ from random import choice as rchoice
 
 from bot.core.config_manager import Config
 from bot import LOGGER
-from bot.helper.themes import neo_minimal
+from bot.helper.themes import WayneBots_minimal
 
 AVL_THEMES = {}
 
 try:
     for theme in listdir("bot/helper/themes"):
-        if theme.startswith("neo_") and theme.endswith(".py"):
+        if theme.startswith("WayneBots_") and theme.endswith(".py"):
             try:
                 AVL_THEMES[theme[4:-3]] = import_module(f"bot.helper.themes.{theme[:-3]}")
                 LOGGER.info(f"Loaded theme: {theme[4:-3]}")
@@ -29,19 +29,19 @@ def BotTheme(var_name, **format_vars):
     theme_ = Config.BOT_THEME
 
     if theme_ in AVL_THEMES:
-        text = getattr(AVL_THEMES[theme_].NeoStyle(), var_name, None)
+        text = getattr(AVL_THEMES[theme_].WayneBotsStyle(), var_name, None)
         if text is None:
             LOGGER.error(
                 f"{var_name} not found in {theme_} theme. "
-                f"Please recheck with Official Repo. Using neo_minimal fallback."
+                f"Please recheck with Official Repo. Using WayneBots_minimal fallback."
             )
     elif theme_ == "random":
         rantheme = rchoice(list(AVL_THEMES.values()))
         LOGGER.info(f"Random Theme Chosen: {rantheme.__name__}")
-        text = getattr(rantheme.NeoStyle(), var_name, None)
+        text = getattr(rantheme.WayneBotsStyle(), var_name, None)
 
     if text is None:
-        text = getattr(neo_minimal.NeoStyle(), var_name, None)
+        text = getattr(WayneBots_minimal.WayneBotsStyle(), var_name, None)
         if text is None:
             LOGGER.error(f"Theme variable {var_name} not found in any theme!")
             return f"[MISSING_THEME: {var_name}]"

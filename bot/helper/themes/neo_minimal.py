@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 
-class NeoStyle:
+class WayneBotsStyle:
 
     ST_BN1_NAME = "GitHub"
-    ST_BN1_URL = "https://github.com/irisXDR/NEO-WZML"
+    ST_BN1_URL = "https://github.com/irisXDR/WayneBots"
     ST_BN2_NAME = "Channel"
     ST_BN2_URL = "https://t.me/Chiheisen"
 

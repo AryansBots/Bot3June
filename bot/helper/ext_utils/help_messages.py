@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 mirror = """<b>✦ MIRROR COMMAND</b>
 
@@ -758,7 +758,7 @@ def get_bot_commands():
     commands["Stats"] = "Bot, OS, Repo & System full Statistics"
     commands["Rss"] = "User RSS Management Settings"
     commands["CancelAll"] = "Cancel all Tasks on the Bot"
-    commands["Help"] = "Detailed help usage of NEO-WZML"
+    commands["Help"] = "Detailed help usage of WayneBots"
     commands["BotSet"] = "[SUDO] Bot Management Settings"
     commands["Log"] = "[SUDO] Get Bot Logs for Internal Working"
     commands["Restart"] = "[SUDO] Reboot bot"

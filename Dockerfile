@@ -1,6 +1,6 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
-FROM irisxdr/neo-wzml:latest
+FROM irisxdr/WayneBots:latest
 
 WORKDIR /usr/src/app
 

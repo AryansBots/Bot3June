@@ -1,37 +1,37 @@
 <!-- markdownlint-disable MD012 MD013 MD033 MD036 MD040 MD041 MD060 -->
 
 <div align="center">
-  <a href="https://github.com/irisXDR/NEO-WZML">
-    <img src="https://iili.io/FLRJNMG.th.png" alt="NEO-WZML Logo" width="140" />
+  <a href="https://github.com/irisXDR/WayneBots">
+    <img src="https://iili.io/FLRJNMG.th.png" alt="WayneBots Logo" width="140" />
   </a>
 
-# NEO-WZML
+# WayneBots
 
 **A Mutli Functional Telegram bot to download from anywhere — torrents, Mega, YouTube, Google Drive, rclone, etc — and upload to Telegram, Cloud Drives, DDLs, or any rclone remote. Built-in FFmpeg processing, archive handling, torrent search, RSS monitoring, and web UI for file selection. Based on WZML-X**
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Docker image](https://img.shields.io/docker/image-size/irisxdr/neo-wzml/latest?logo=docker&label=Docker%20Image&labelColor=161b22&color=2496ed)](https://hub.docker.com/r/irisxdr/neo-wzml)
+[![Docker image](https://img.shields.io/docker/image-size/irisxdr/WayneBots/latest?logo=docker&label=Docker%20Image&labelColor=161b22&color=2496ed)](https://hub.docker.com/r/irisxdr/WayneBots)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-2ea043.svg)](LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-2ea043?logo=telegram&labelColor=161b22)](https://t.me/Chiheisen)
 
-[Channel](https://t.me/Chiheisen) · [Support Group](https://t.me/ChiheisenUnion) · [Issues](https://github.com/irisXDR/NEO-WZML/issues) · [Docker Hub](https://hub.docker.com/r/irisxdr/neo-wzml)
+[Channel](https://t.me/Chiheisen) · [Support Group](https://t.me/ChiheisenUnion) · [Issues](https://github.com/irisXDR/WayneBots/issues) · [Docker Hub](https://hub.docker.com/r/irisxdr/WayneBots)
 
 </div>
 
-> 🚧 **Status:** NEO-WZML is active and evolving. Public releases are expected to be usable, but if you hit a bug, please open an issue with logs and the command you ran.
+> 🚧 **Status:** WayneBots is active and evolving. Public releases are expected to be usable, but if you hit a bug, please open an issue with logs and the command you ran.
 
 ---
 
 ## 📚 Table of Contents
 
-- [✨ Why NEO-WZML](#-why-neo-wzml)
+- [✨ Why WayneBots](#-why-WayneBots)
 - [🚀 Highlights](#-highlights)
 - [⚡ Quick Start](#-quick-start)
 - [💬 Commands](#-commands)
 - [🧭 Deployment Notes](#-deployment-notes)
-- [🆚 What NEO-WZML Adds](#-what-neo-wzml-adds)
+- [🆚 What WayneBots Adds](#-what-WayneBots-adds)
 - [🔍 Troubleshooting](#-troubleshooting)
 - [🤝 Support](#-support)
 - [💰 Sponsors and Donations](#-sponsors-and-donations)
@@ -40,9 +40,9 @@
 
 ---
 
-## ✨ Why NEO-WZML
+## ✨ Why WayneBots
 
-NEO-WZML is built for people who move a lot of files through Telegram and cloud storage. It combines the classic mirror/leech workflow with modern file selection, persistent user settings, strong queue controls, and practical media tools.
+WayneBots is built for people who move a lot of files through Telegram and cloud storage. It combines the classic mirror/leech workflow with modern file selection, persistent user settings, strong queue controls, and practical media tools.
 
 - 🔌 **One bot, many sources:** direct links, torrents, Mega, Google Drive, JDownloader, yt-dlp, Telegram messages, and rclone remotes.
 - 🎯 **Multiple upload targets:** Telegram leech, Google Drive, rclone remotes, GoFile, BuzzHeavier, and PixelDrain.
@@ -95,8 +95,8 @@ NEO-WZML is built for people who move a lot of files through Telegram and cloud 
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/irisXDR/NEO-WZML.git
-cd NEO-WZML
+git clone https://github.com/irisXDR/WayneBots.git
+cd WayneBots
 
 cp sample_config.py config.py
 # Edit config.py and set the required values listed below.
@@ -191,11 +191,11 @@ Examples:
 
 ---
 
-## 🆚 What NEO-WZML Adds
+## 🆚 What WayneBots Adds
 
-NEO-WZML is based on WZML-X and focuses on deployment reliability, modern selection flows, and practical operator controls.
+WayneBots is based on WZML-X and focuses on deployment reliability, modern selection flows, and practical operator controls.
 
-| Area | NEO-WZML |
+| Area | WayneBots |
 |------|----------|
 | Mega | Native MegaSDK 8.1.1 and web folder selection |
 | Selection | Torrent and Mega selection through the built-in web UI |
@@ -242,7 +242,7 @@ Removed from this fork: NZB/SABnzbd, YouTube upload, IMDB, and broadcast modules
 
 - 📢 Telegram channel: [Chiheisen](https://t.me/Chiheisen)
 - 💬 Support group: [ChiheisenUnion](https://t.me/ChiheisenUnion)
-- 🐞 Bugs and feature requests: [GitHub Issues](https://github.com/irisXDR/NEO-WZML/issues)
+- 🐞 Bugs and feature requests: [GitHub Issues](https://github.com/irisXDR/WayneBots/issues)
 
 If you report a bug, include:
 
@@ -255,7 +255,7 @@ If you report a bug, include:
 
 ## 💰 Sponsors and Donations
 
-If NEO-WZML saves you time, consider supporting development:
+If WayneBots saves you time, consider supporting development:
 
 [🧸 Support the project — アイリス](https://telegram.me/irisXDR)
 

@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 from importlib import import_module
 from os import getenv
@@ -8,7 +8,7 @@ class Config:
     AS_DOCUMENT = False
     AUTHORIZED_CHATS = ""
     EXCEP_CHATS = ""
-    BOT_THEME = "neo_minimal"
+    BOT_THEME = "WayneBots_minimal"
     BASE_URL = ""
     BASE_URL_PORT = 80
     BOT_TOKEN = ""
@@ -42,7 +42,7 @@ class Config:
     PROTECTED_API = ""
     BUZZHEAVIER_API = ""
     GDRIVE_ID = ""
-    GD_DESP = "Uploaded with NEO-WZML"
+    GD_DESP = "Uploaded with WayneBots"
     AUTHOR_NAME = "irisXDR"
     AUTHOR_URL = "https://github.com/irisXDR"
     INSTADL_API = ""

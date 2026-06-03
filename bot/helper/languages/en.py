@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 START_MSG = """
 This bot can mirror from links|tgfiles|torrents|rclone-cloud to any rclone cloud, Google Drive or to telegram.

@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 from bot import sudo_users, user_data
 from bot.helper.ext_utils.bot_utils import update_user_ldata, new_task

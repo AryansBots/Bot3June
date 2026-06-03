@@ -1,4 +1,4 @@
-# This file is a part of NEO-WZML (github.com/irisXDR/NEO-WZML)
+# This file is a part of WayneBots (github.com/irisXDR/WayneBots)
 
 from datetime import datetime, timezone
 from importlib import import_module
@@ -43,7 +43,7 @@ class DbManager:
             self._conn = AsyncIOMotorClient(
                 Config.DATABASE_URL, server_api=ServerApi("1")
             )
-            self.db = self._conn.neowzml
+            self.db = self._conn.WayneBotswzml
             self._return = False
         except PyMongoError as e:
             LOGGER.error(f"Error in DB connection: {e}")
