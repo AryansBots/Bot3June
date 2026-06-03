@@ -7,8 +7,8 @@
 # REQUIRED
 BOT_TOKEN = "8648384810:AAEDj7xlJlkfGsxtt8Yfm4VqWPftF8JljNg"
 OWNER_ID = 8449664001
-TELEGRAM_API = 5360874
-TELEGRAM_HASH = "4631f40a1b26c2759bf1be4aff1df710"
+TELEGRAM_API = 30706006
+TELEGRAM_HASH = "fb01e8d10ef234bc013769c2e2f024a5"
 DATABASE_URL = "mongodb+srv://kipsas449_db_user:hjo9dNUs3Bd5ar1C@cluster0.5vdpbkt.mongodb.net/?appName=Cluster0"  # mongodb:// or mongodb+srv:// URI
 
 # General
