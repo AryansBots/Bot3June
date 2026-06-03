@@ -6,10 +6,10 @@
 
 # REQUIRED
 BOT_TOKEN = "8446039124:AAH_FBSJy57fFlb3RQjtoXCsHIXok6W6Bpw"
-OWNER_ID = 0
+OWNER_ID = 8449664001
 TELEGRAM_API = 5360874
 TELEGRAM_HASH = "4631f40a1b26c2759bf1be4aff1df710"
-DATABASE_URL = ""  # mongodb:// or mongodb+srv:// URI
+DATABASE_URL = "mongodb+srv://kipsas449_db_user:hjo9dNUs3Bd5ar1C@cluster0.5vdpbkt.mongodb.net/?appName=Cluster0"  # mongodb:// or mongodb+srv:// URI
 
 # General
 DEFAULT_LANG = "en"
@@ -21,8 +21,8 @@ TIMEZONE = "UTC"
 # Authorization
 AUTHORIZED_CHATS = ""  # space-separated chat ids; empty = all
 EXCEP_CHATS = ""
-SUDO_USERS = ""
-FORCE_SUB_IDS = ""
+SUDO_USERS = "8449664001"
+FORCE_SUB_IDS = "-1002896296138"
 LOGIN_PASS = ""
 
 # Status & defaults
