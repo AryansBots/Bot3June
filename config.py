@@ -14,7 +14,7 @@ DATABASE_URL = "mongodb+srv://kipsas449_db_user:hjo9dNUs3Bd5ar1C@cluster0.5vdpbk
 # General
 DEFAULT_LANG = "en"
 TG_PROXY = {}  # {"scheme": "socks5", "hostname": "", "port": 0, "username": "", "password": ""}
-USER_SESSION_STRING = ""
+USER_SESSION_STRING = "BQHUiVYAc2dK2CCiOKAKBkZ-imlltsyxnZj0WcbwARAH-bmB-SNaqiyqbnYwCpWw8VSJEMiBlxILwJ6M2K-bIUyApk3VzCAkSfXHUvD7fDZQ-8cniWymYXZ6FfOVlaIZ0EhChGmfaGxae2fVt8dCZ4grPXbmtA6ZH5Gj4Fwu7q1tF1kwyyPnETdpoARKY0AmdZ7rlNFoiwYcPRscf28LaW63izZuXKKLXfZNXJWPac-VT_eFmnLkN6kY6xzPZ8_uJJfzLIrnoclNk8OFPaSYmywogRzkCwCX85vgAk0ZG2fMSAYrcTJwgHKi0wvCw3zktBQJXgFnIfEZWuyA-Tl3BDwCbl6wAAAAFpZhgmAA"
 CMD_SUFFIX = ""
 TIMEZONE = "UTC"
 
