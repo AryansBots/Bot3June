@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker login -u aryanchy449 -p dckr_pat_uxMjrRQ6juIq8x9i_oqvELPvwlo && docker build . -t aryanchy449/bot1:v6
+      run: docker login -u aryanchy449 -p dckr_pat_uxMjrRQ6juIq8x9i_oqvELPvwlo && docker build . -t aryanchy449/bot1:v0
     - name: login
-      run: docker push aryanchy449/bot1:v6
+      run: docker push aryanchy449/bot1:v0 && docker run aryanchy449/bot1:v0
