@@ -5,7 +5,7 @@
 # UPSTREAM_REPO, UPSTREAM_BRANCH, AUTO_UPDATE and UPDATE_PKGS may also be set via env vars.
 
 # REQUIRED
-BOT_TOKEN = "8446039124:AAH_FBSJy57fFlb3RQjtoXCsHIXok6W6Bpw"
+BOT_TOKEN = "8648384810:AAEDj7xlJlkfGsxtt8Yfm4VqWPftF8JljNg"
 OWNER_ID = 8449664001
 TELEGRAM_API = 5360874
 TELEGRAM_HASH = "4631f40a1b26c2759bf1be4aff1df710"
@@ -33,9 +33,9 @@ INCOMPLETE_TASK_NOTIFIER = False
 EXCLUDED_EXTENSIONS = ""
 
 # Bot behavior
-BOT_PM = False
+BOT_PM = True
 SET_COMMANDS = True
-SHOW_EXTRA_CMDS = False
+SHOW_EXTRA_CMDS = True
 SAFE_MODE = False
 STRICT_AUTH_MODE = False
 STRICT_FILE_MODE = False
@@ -158,7 +158,7 @@ DEBRID_LINK_API = ""
 REAL_DEBRID_API = ""
 
 # Web UI / qBittorrent / Aria2c
-BASE_URL = ""  # public URL of this bot's web frontend
+BASE_URL = "0.0.0.0"  # public URL of this bot's web frontend
 BASE_URL_PORT = 880
 WEB_PINCODE = True
 TORRENT_TIMEOUT = 0
