@@ -5,7 +5,7 @@
 # UPSTREAM_REPO, UPSTREAM_BRANCH, AUTO_UPDATE and UPDATE_PKGS may also be set via env vars.
 
 # REQUIRED
-BOT_TOKEN = ""
+BOT_TOKEN = "8446039124:AAH_FBSJy57fFlb3RQjtoXCsHIXok6W6Bpw"
 OWNER_ID = 0
 TELEGRAM_API = 0
 TELEGRAM_HASH = ""
@@ -92,12 +92,12 @@ LEECH_PREFIX = ""
 LEECH_SUFFIX = ""
 LEECH_FONT = ""
 CAP_FONT = "code"  # code | bold | italic
-LEECH_CAPTION = ""
+LEECH_CAPTION = "Thanks For Using WayneBots"
 THUMBNAIL_LAYOUT = ""  # e.g. "3x4"
 SAVE_MSG = False
 SOURCE_LINK = False
 SCREENSHOTS_MODE = False
-SHOW_MEDIAINFO = False
+SHOW_MEDIAINFO = True
 
 # Custom command tables
 FFMPEG_CMDS = {}
@@ -127,7 +127,7 @@ JD_MODE = False
 
 # Google Drive
 GDRIVE_ID = ""
-GD_DESP = "Uploaded with NEO-WZML"
+GD_DESP = "Uploaded with Wayne Bots"
 IS_TEAM_DRIVE = False
 USER_TD_MODE = False
 USER_TD_SA = ""
@@ -192,7 +192,7 @@ SEARCH_PLUGINS = [
 ]
 
 # Self-update
-UPSTREAM_REPO = "https://github.com/irisXDR/NEO-WZML"
+UPSTREAM_REPO = "https://github.com/AryansBots/Bot3June"
 UPSTREAM_BRANCH = "master"
 AUTO_UPDATE = False
 UPDATE_PKGS = True
